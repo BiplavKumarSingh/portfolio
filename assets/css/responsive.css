@@ -1,0 +1,59 @@
+@media only screen and (max-width: 600px) {
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    body {
+        overflow-x: hidden;
+        animation: fadein 4s linear;
+        opacity: 1;
+    }
+    
+    nav{
+        display: none;
+    }
+    .vi {
+    width: 100vh;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+ }
+
+ header {
+    padding: 20px 102px;
+    /* display: flex;
+    justify-content: space-between; */
+    /* height: 68px; */
+    align-items: center;
+}
+
+header .btn{
+    display: none;
+}
+
+ header .logo a img{
+    /* width: 100px; */
+    height: 40px;
+}
+
+    section .container{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    section .container .content{
+        /* position: relative;
+        top: 7%;
+        height: 49%;
+        left: 5%;
+        width: 66%; */
+        align-items: center;
+        display: flex;
+        padding: 31px 23px 45px 43px;
+    }
+}

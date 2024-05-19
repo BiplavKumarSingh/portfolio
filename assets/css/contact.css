@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+ul,
+li {
+    color: Black;
+}
+
+body {
+    overflow-x: hidden;
+    animation: fadein 4s linear;
+    opacity: 1;
+}
+@keyframes fadein {
+    from{opacity: 0;}
+}
+
+.vi {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+ }
+
+ header {
+    padding: 20px 102px;
+    display: flex;
+    justify-content: space-between;
+    /* height: 68px; */
+    align-items: center;
+}
+
+header .logo a img{
+       /* width: 100px; */
+       height: 72px;
+}
+
+nav{
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+}
+
+nav{
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+}
+
+nav ul {
+    display: flex;
+    gap: 68px;
+    list-style: none;
+}
+
+nav ul li {
+    padding: 16px 0;
+    /*font-family: Exo, sans-serif;*/
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+nav ul a{
+    text-decoration: none;
+}
+
+nav ul li:hover {
+    color: #0d6efd;
+    transition: all ease .3s;
+}
+
+header .btn{
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    border-radius: 18px;
+    border: 2px solid tomato;
+    height: 32px;
+    padding: 7px 21px;
+    background-color: transparent;
+}
+
+header .btn a{
+    text-decoration: none;
+    color: tomato;
+}
+
+section form .detail input{
+    border-radius: 17px;
+    padding: 3px;
+}
+
+section form .gen{
+    display: inline-flex;
+    gap: 7px;
+}
+
+section button{
+    border-radius: 7px;
+    background-color: tomato;
+    width: 80px;
+    height: 25px;
+}
+
+footer{
+    padding: 13px 60px;
+}
+
+footer .f2{
+    display: flex;
+    /* padding: 11px; */
+    justify-content: space-between;
+}
+
+footer .f2 .top{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 264px;
+    gap: 12px;
+}
+
+footer .f2 .top .logo{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
+/* footer .f2 .top .logo img{
+    height: 60px;
+} */
+
+footer .f2 .top .word{
+    opacity: 70%;
+}
+
+footer .f2 .pages{
+    height: 204px;
+    display: grid;
+    gap: 5px;
+}
+
+footer .f2 .pages a li {
+    list-style: none;
+    text-decoration: none;
+    opacity: 70%;
+} 
+
+ footer .f2 .pages a{
+    text-decoration: none;
+}
+
+footer .f2 .contact{
+    height: 204px;
+    display: grid;
+    gap: 5px;
+}
+
+footer .f2 .contact a li {
+    list-style: none;
+    text-decoration: none;
+    opacity: 70%;
+} 
+
+ footer .f2 .contact a{
+    text-decoration: none;
+} 
+
+footer .f3{
+    justify-content: space-between;
+    display: flex;
+    /* padding: 11px; */
+}
+
+footer .f3 p{
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14.4px;
+    /* color: grey; */
+}
+
+footer .f3 .social{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px
+}
