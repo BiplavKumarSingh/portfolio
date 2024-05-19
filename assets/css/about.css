@@ -94,7 +94,54 @@ header .btn a{
     text-decoration: none;
     color: tomato;
 }
+.aboutme{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    padding: 33px 79px;
+    gap: 56px;
+    border-radius: 14px;
+    box-shadow: 0 16px 30px hsla(0, 0%, 0%, 0.25);
+}
 
+.aboutme .content{
+    width: 100%;
+    display: flex;
+    height: 60%;
+    /* background-color: antiquewhite; */
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.aboutme .content .conte{
+    /* align-items: center; */
+    flex-direction: column;
+    display: flex;
+    padding: 31px 23px 45px 43px;
+    gap: 20px;
+}
+
+.aboutme .content p{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.aboutme .content span{
+    font-weight: 700;
+    color: tomato;
+}
+
+.aboutme .content .conte .title1 h1 span{
+    color: tomato;
+}
+.aboutme .content img{
+    border-radius: 50%;
+    filter: drop-shadow(20px 10px 20px black);
+    box-shadow: 20px 20px 60px rgba(0, 0, 0, 0.342),
+    inset -20px -20px 60px rgba(255, 255, 255, 0.26);
+}
 
 .title {
     background: linear-gradient(30deg, #f32170, #ff6b08, #cf23cf, #eedd44);
@@ -162,4 +209,88 @@ ul {
     to {
         width: width;
     }
+}
+
+footer{
+    padding: 13px 60px;
+}
+
+footer .f2{
+    display: flex;
+    /* padding: 11px; */
+    justify-content: space-between;
+}
+
+footer .f2 .top{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 264px;
+    gap: 12px;
+}
+
+footer .f2 .top .logo{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
+/* footer .f2 .top .logo img{
+    height: 60px;
+} */
+
+footer .f2 .top .word{
+    opacity: 70%;
+}
+
+footer .f2 .pages{
+    height: 204px;
+    display: grid;
+    gap: 5px;
+}
+
+footer .f2 .pages a li {
+    list-style: none;
+    text-decoration: none;
+} 
+
+ footer .f2 .pages a{
+    text-decoration: none;
+}
+
+footer .f2 .contact{
+    height: 204px;
+    display: grid;
+    gap: 5px;
+}
+
+footer .f2 .contact a li {
+    list-style: none;
+    text-decoration: none;
+} 
+
+ footer .f2 .contact a{
+    text-decoration: none;
+} 
+
+footer .f3{
+    justify-content: space-between;
+    display: flex;
+    /* padding: 11px; */
+}
+
+footer .f3 p{
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14.4px;
+    /* color: grey; */
+}
+
+footer .f3 .social{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px
 }

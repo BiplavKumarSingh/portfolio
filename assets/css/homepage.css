@@ -39,7 +39,7 @@ body {
 header {
     padding: 20px 102px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     /* height: 68px; */
     align-items: center;
 }
@@ -193,7 +193,7 @@ section .info .contact .images {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 15px
+    gap: 15px;
 }
 
 section .info .contactme {
@@ -251,7 +251,6 @@ footer .f2 .pages{
 footer .f2 .pages a li {
     list-style: none;
     text-decoration: none;
-    opacity: 70%;
 } 
 
  footer .f2 .pages a{
@@ -267,7 +266,6 @@ footer .f2 .contact{
 footer .f2 .contact a li {
     list-style: none;
     text-decoration: none;
-    opacity: 70%;
 } 
 
  footer .f2 .contact a{
